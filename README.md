@@ -1,0 +1,2 @@
+# MusicBot
+teamspeak3musicbot
