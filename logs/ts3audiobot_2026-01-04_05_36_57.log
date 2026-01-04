@@ -1,0 +1,12 @@
+2026-01-04 05:36:57.6154| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 05:36:57.7053| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 05:36:57
+2026-01-04 05:36:57.7706| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 05:36:57.7945| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 05:36:57.8159| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.20348.0 (64bit)
+2026-01-04 05:36:57.8205| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 05:36:57.8372| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 05:36:57.8544| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 05:36:58.4528|ERROR|Core|WebServer.StartWebServerInternal Can't find a WebInterface path to host. Try specifying the path to host in the config
+2026-01-04 05:36:58.4645| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 05:36:58.6643| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 05:36:59.1425| INFO|Core|Ts3Client.ConnectClient Client connected.

@@ -1,0 +1,38 @@
+2026-01-05 02:26:31.9884| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-05 02:26:32.0119| INFO|Core|Setup.LogHeader [ Date: Monday, 05 January 2026 02:26:32
+2026-01-05 02:26:32.0222| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-05 02:26:32.0222| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-05 02:26:32.0222| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.26100.0 (64bit)
+2026-01-05 02:26:32.0222| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-05 02:26:32.0222| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-05 02:26:32.0222| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-05 02:26:32.3400|ERROR|Core|WebServer.StartWebServerInternal Can't find a WebInterface path to host. Try specifying the path to host in the config
+2026-01-05 02:26:32.3400| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-05 02:26:32.4657| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-05 02:26:32.7873| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-05 02:26:38.3948| INFO|0|Bot.OnMessageReceived User Acc requested: !play 恋人
+2026-01-05 02:26:38.4336| WARN|0|RightsManager.ReadFile Rule has no matcher and will always match
+2026-01-05 02:26:38.4336| WARN|0|RightsManager.ReadFile Right "cmd.pm" is not registered.
+2026-01-05 02:26:38.4336| WARN|0|RightsManager.ReadFile Right "cmd.subscribe" is not registered.
+2026-01-05 02:26:38.4336| WARN|0|RightsManager.ReadFile Right "cmd.unsubscribe" is not registered.
+2026-01-05 02:26:38.4336| WARN|0|RightsManager.ReadFile Right "cmd.version" is not registered.
+2026-01-05 02:26:38.4336| WARN|0|RightsManager.ReadFile Right "cmd.repeat" is not registered.
+2026-01-05 02:26:38.4336| WARN|0|RightsManager.ReadFile Right "cmd.random" is not registered.
+2026-01-05 02:26:38.4336| WARN|0|RightsManager.ReadFile Right "cmd.if" is not registered.
+2026-01-05 02:26:38.4336| WARN|0|RightsManager.ReadFile Right "cmd.print" is not registered.
+2026-01-05 02:26:38.4336| WARN|0|RightsManager.ReadFile Right "cmd.rng" is not registered.
+2026-01-05 02:26:38.4336| WARN|0|RightsManager.ReadFile Right "cmd.eval" is not registered.
+2026-01-05 02:26:38.4336| WARN|0|RightsManager.ReadFile Right "cmd.take" is not registered.
+2026-01-05 02:26:38.4415| WARN|0|RightsManager.ReadFile Right "cmd.xecute" is not registered.
+2026-01-05 02:26:38.4415| WARN|0|RightsManager.ReadFile Right "cmd.bot.use" is not registered.
+2026-01-05 02:26:38.4415| WARN|0|RightsManager.ReadFile Right "cmd.rights.can" is not registered.
+2026-01-05 02:26:38.4415| WARN|0|RightsManager.ReadFile Right "cmd.seek" is not registered.
+2026-01-05 02:26:38.4415| WARN|0|RightsManager.ReadFile Right "cmd.history.from" is not registered.
+2026-01-05 02:26:38.4415| WARN|0|RightsManager.ReadFile Right "cmd.history.id" is not registered.
+2026-01-05 02:26:38.4415| WARN|0|RightsManager.ReadFile Right "cmd.history.last" is not registered.
+2026-01-05 02:26:38.4415| WARN|0|RightsManager.ReadFile Right "cmd.history.till" is not registered.
+2026-01-05 02:26:38.4415| WARN|0|RightsManager.ReadFile Right "cmd.history.title" is not registered.
+2026-01-05 02:26:40.0458| INFO|0|Bot.OnMessageReceived User Acc requested: !list 抖音热歌
+2026-01-05 02:26:43.9757| INFO|0|Bot.OnMessageReceived User Acc requested: !playid 33894279
+2026-01-05 02:26:48.9983| INFO|0|Bot.OnMessageReceived User Acc requested: !listid 14479280273
+2026-01-05 02:26:57.9021| INFO|0|Bot.OnMessageReceived User Acc requested: !pause

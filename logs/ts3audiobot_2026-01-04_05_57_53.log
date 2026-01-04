@@ -1,0 +1,106 @@
+2026-01-04 05:57:53.4087| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 05:57:53.4929| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 05:57:53
+2026-01-04 05:57:53.5172| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 05:57:53.5315| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 05:57:53.5432| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.20348.0 (64bit)
+2026-01-04 05:57:53.5643| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 05:57:53.5726| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 05:57:53.5726| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 05:57:55.0471|ERROR|Core|WebServer.StartWebServerInternal Can't find a WebInterface path to host. Try specifying the path to host in the config
+2026-01-04 05:57:55.0471| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 05:57:55.5092| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 05:57:57.1459| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-04 05:58:11.7884| INFO|0|Bot.OnMessageReceived User Acc requested: !list 抖音热歌
+2026-01-04 05:58:11.9461| WARN|0|RightsManager.ReadFile Right "cmd.pm" is not registered.
+2026-01-04 05:58:11.9490| WARN|0|RightsManager.ReadFile Right "cmd.subscribe" is not registered.
+2026-01-04 05:58:11.9490| WARN|0|RightsManager.ReadFile Right "cmd.unsubscribe" is not registered.
+2026-01-04 05:58:11.9490| WARN|0|RightsManager.ReadFile Right "cmd.version" is not registered.
+2026-01-04 05:58:11.9490| WARN|0|RightsManager.ReadFile Right "cmd.repeat" is not registered.
+2026-01-04 05:58:11.9490| WARN|0|RightsManager.ReadFile Right "cmd.random" is not registered.
+2026-01-04 05:58:11.9490| WARN|0|RightsManager.ReadFile Right "cmd.if" is not registered.
+2026-01-04 05:58:11.9490| WARN|0|RightsManager.ReadFile Right "cmd.print" is not registered.
+2026-01-04 05:58:11.9490| WARN|0|RightsManager.ReadFile Right "cmd.rng" is not registered.
+2026-01-04 05:58:11.9638| WARN|0|RightsManager.ReadFile Right "cmd.eval" is not registered.
+2026-01-04 05:58:11.9638| WARN|0|RightsManager.ReadFile Right "cmd.take" is not registered.
+2026-01-04 05:58:11.9638| WARN|0|RightsManager.ReadFile Right "cmd.xecute" is not registered.
+2026-01-04 05:58:11.9638| WARN|0|RightsManager.ReadFile Right "cmd.bot.use" is not registered.
+2026-01-04 05:58:11.9638| WARN|0|RightsManager.ReadFile Right "cmd.rights.can" is not registered.
+2026-01-04 05:58:11.9638| WARN|0|RightsManager.ReadFile Right "cmd.seek" is not registered.
+2026-01-04 05:58:11.9638| WARN|0|RightsManager.ReadFile Right "cmd.history.from" is not registered.
+2026-01-04 05:58:11.9638| WARN|0|RightsManager.ReadFile Right "cmd.history.id" is not registered.
+2026-01-04 05:58:11.9811| WARN|0|RightsManager.ReadFile Right "cmd.history.last" is not registered.
+2026-01-04 05:58:11.9811| WARN|0|RightsManager.ReadFile Right "cmd.history.till" is not registered.
+2026-01-04 05:58:11.9811| WARN|0|RightsManager.ReadFile Right "cmd.history.title" is not registered.
+2026-01-04 05:58:14.3258| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 05:59:04.1191| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 05:59:04.3887| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 05:59:14.7949| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 05:59:15.0191| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 05:59:16.9881| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 05:59:17.2256| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 06:02:28.5426| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 06:04:40.3968| INFO|0|Bot.OnMessageReceived User Acc requested: !previous
+2026-01-04 06:04:40.6184| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 06:07:41.7043| INFO|0|Bot.OnMessageReceived User Acc requested: !mode 0
+2026-01-04 06:24:24.7908| INFO|0|Bot.OnMessageReceived User Acc requested: !pause
+2026-01-04 06:24:28.3083| INFO|0|Bot.OnMessageReceived User Acc requested: !clear
+2026-01-04 06:24:30.4810| INFO|0|Bot.OnMessageReceived User Acc requested: !stop
+2026-01-04 06:55:40.6843| INFO|0|Bot.OnMessageReceived User Bdd requested: !bot name MusicBot(焕新升级版）
+2026-01-04 15:36:32.6258| INFO|0|Bot.OnMessageReceived User Acc requested: !play zoo
+2026-01-04 15:36:54.1356| INFO|0|Bot.OnMessageReceived User Acc requested: !pause
+2026-01-04 15:45:42.0855| INFO|0|Bot.OnMessageReceived User Acc requested: !list 好听的歌2333
+2026-01-04 15:45:55.2685| INFO|0|Bot.OnMessageReceived User Acc requested: !stop
+2026-01-04 15:46:01.5533| INFO|0|Bot.OnMessageReceived User Acc requested: !list 好听的歌cca
+2026-01-04 15:47:02.2778| INFO|0|Bot.OnMessageReceived User Acc requested: !pause
+2026-01-04 16:34:59.6653| INFO|0|Bot.OnMessageReceived User Acc requested: !stop
+2026-01-04 16:35:10.1050| INFO|0|Bot.OnMessageReceived User Acc requested: !list 抖音热歌
+2026-01-04 16:35:20.5851| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 16:35:24.4195| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 16:35:29.5194| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 16:38:53.0989| INFO|0|Bot.OnMessageReceived User Acc requested: !mode 1
+2026-01-04 16:38:54.7352| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 16:38:57.6602| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 16:43:21.3735| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 16:48:26.3261| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 17:04:30.8851| INFO|0|Bot.OnMessageReceived User Acc requested: !volume 30
+2026-01-04 17:04:47.6650| INFO|0|Bot.OnMessageReceived User Acc requested: !pause
+2026-01-04 18:31:00.9062| INFO|0|Bot.OnMessageReceived User Acc requested: !clear
+2026-01-04 18:31:02.7452| INFO|0|Bot.OnMessageReceived User Acc requested: !stop
+2026-01-04 18:31:07.8491| INFO|0|Bot.OnMessageReceived User Acc requested: !list 每日推荐
+2026-01-04 18:31:30.0756| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 18:42:26.2660| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 18:42:47.0978| INFO|0|Bot.OnMessageReceived User Acc requested: !pause
+2026-01-04 19:26:48.0091| INFO|0|Bot.OnMessageReceived User Acc requested: !play zoo
+2026-01-04 19:33:29.8201| INFO|0|Bot.OnMessageReceived User Acc requested: !mode
+2026-01-04 19:33:41.4055| INFO|0|Bot.OnMessageReceived User Acc requested: !mode 0
+2026-01-04 19:33:45.7504| INFO|0|Bot.OnMessageReceived User Acc requested: !stop
+2026-01-04 19:33:49.5842| INFO|0|Bot.OnMessageReceived User Acc requested: !play zoo
+2026-01-04 19:34:24.3086| INFO|0|Bot.OnMessageReceived User Acc requested: !play 恋人
+2026-01-04 19:34:29.3352| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 19:34:34.4112| INFO|0|Bot.OnMessageReceived User Acc requested: !list 李荣浩
+2026-01-04 19:34:40.3215| INFO|0|Bot.OnMessageReceived User Acc requested: !stop
+2026-01-04 19:34:41.7123| INFO|0|Bot.OnMessageReceived User Acc requested: !list 李荣浩
+2026-01-04 19:35:01.5533| INFO|0|Bot.OnMessageReceived User Acc requested: !pause
+2026-01-04 19:48:15.9388| INFO|0|Bot.OnMessageReceived User Acc requested: !list 好听的歌cca
+2026-01-04 19:48:23.3517| INFO|0|Bot.OnMessageReceived User Acc requested: !stop
+2026-01-04 19:48:24.8788| INFO|0|Bot.OnMessageReceived User Acc requested: !list 好听的歌cca
+2026-01-04 19:48:43.5418| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 19:52:52.4627| INFO|0|Bot.OnMessageReceived User Acc requested: !mode
+2026-01-04 19:52:55.2114| INFO|0|Bot.OnMessageReceived User Acc requested: !mode 1
+2026-01-04 19:52:59.3032| INFO|0|Bot.OnMessageReceived User W1nG requested: !mode 2
+2026-01-04 19:53:17.6773| INFO|0|Bot.OnMessageReceived User Acc requested: !mode 2
+2026-01-04 19:53:22.2216| INFO|0|Bot.OnMessageReceived User Acc requested: !mode 1
+2026-01-04 19:53:25.9702| INFO|0|Bot.OnMessageReceived User W1nG requested: !mode 2
+2026-01-04 19:53:31.5580| INFO|0|Bot.OnMessageReceived User W1nG requested: !mode 2
+2026-01-04 19:53:34.7854| INFO|0|Bot.OnMessageReceived User W1nG requested: !mode 1
+2026-01-04 19:53:39.2540| INFO|0|Bot.OnMessageReceived User W1nG requested: !mode 1
+2026-01-04 19:53:47.0687| INFO|0|Bot.OnMessageReceived User Acc requested: !stop
+2026-01-04 19:53:53.3641| INFO|0|Bot.OnMessageReceived User W1nG requested: !play 我想要的
+2026-01-04 19:54:39.1732| INFO|0|Bot.OnMessageReceived User W1nG requested: !play 我想要的
+2026-01-04 19:54:40.7610| INFO|0|Bot.OnMessageReceived User W1nG requested: !mode 1
+2026-01-04 19:59:41.2246| INFO||Core.ConsoleInterruptHandler Got interrupt signal, trying to soft-exit.
+2026-01-04 19:59:41.2468| INFO||Core.StopAsync TS3AudioBot shutting down.
+2026-01-04 19:59:41.2587| INFO||Bot.Stop Bot (0) disconnecting.
+2026-01-04 19:59:41.3164| INFO||WebServer.Dispose WebServer is closing
+2026-01-04 19:59:41.3260| INFO|Core|WebServer.OnShutdown WebServer has closed
+2026-01-04 19:59:41.3415| INFO||Core.StopAsync Bye

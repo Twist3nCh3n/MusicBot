@@ -1,0 +1,43 @@
+2026-01-05 02:02:58.0857| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-05 02:02:58.1093| INFO|Core|Setup.LogHeader [ Date: Monday, 05 January 2026 02:02:58
+2026-01-05 02:02:58.1194| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-05 02:02:58.1194| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-05 02:02:58.1194| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.26100.0 (64bit)
+2026-01-05 02:02:58.1194| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-05 02:02:58.1194| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-05 02:02:58.1194| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-05 02:02:58.4450|ERROR|Core|WebServer.StartWebServerInternal Can't find a WebInterface path to host. Try specifying the path to host in the config
+2026-01-05 02:02:58.4450| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-05 02:02:58.5769| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-05 02:02:58.9167| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-05 02:03:45.5004| INFO|0|Bot.OnMessageReceived User Acc requested: !play 悬溺
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Rule has no matcher and will always match
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.pm" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.subscribe" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.unsubscribe" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.version" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.repeat" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.random" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.if" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.print" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.rng" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.eval" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.take" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.xecute" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.bot.use" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.rights.can" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.seek" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.history.from" is not registered.
+2026-01-05 02:03:45.5399| WARN|0|RightsManager.ReadFile Right "cmd.history.id" is not registered.
+2026-01-05 02:03:45.5517| WARN|0|RightsManager.ReadFile Right "cmd.history.last" is not registered.
+2026-01-05 02:03:45.5517| WARN|0|RightsManager.ReadFile Right "cmd.history.till" is not registered.
+2026-01-05 02:03:45.5517| WARN|0|RightsManager.ReadFile Right "cmd.history.title" is not registered.
+2026-01-05 02:04:02.4164| INFO|0|Bot.OnMessageReceived User Acc requested: !list 抖音热歌
+2026-01-05 02:05:42.9723| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-05 02:09:15.4763| INFO|0|Bot.OnMessageReceived User Acc requested: !pause
+2026-01-05 02:09:21.0379| INFO||Core.ConsoleInterruptHandler Got interrupt signal, trying to soft-exit.
+2026-01-05 02:09:21.0379| INFO||Core.StopAsync TS3AudioBot shutting down.
+2026-01-05 02:09:21.0379| INFO||Bot.Stop Bot (0) disconnecting.
+2026-01-05 02:09:21.0806| INFO||WebServer.Dispose WebServer is closing
+2026-01-05 02:09:21.0806| INFO|Core|WebServer.OnShutdown WebServer has closed
+2026-01-05 02:09:21.0834| INFO||Core.StopAsync Bye

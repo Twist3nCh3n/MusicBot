@@ -1,0 +1,14 @@
+2026-01-04 05:34:00.4447| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 05:34:00.4958| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 05:34:00
+2026-01-04 05:34:00.5247| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 05:34:00.5320| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 05:34:00.5320| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.20348.0 (64bit)
+2026-01-04 05:34:00.5320| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 05:34:00.5514| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 05:34:00.5514| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 05:34:01.0774| WARN|Core|RightsManager.CreateConfigIfNotExists No permission file found.
+2026-01-04 05:34:13.9135| INFO|Core|RightsManager.CreateConfig Creating new permission file ({"AdminUids":["9IUioSldd48RhXFqS\/nA6hgOSL4="], "OverwriteIfExists":false})
+2026-01-04 05:34:13.9612|ERROR|Core|WebServer.StartWebServerInternal Can't find a WebInterface path to host. Try specifying the path to host in the config
+2026-01-04 05:34:13.9612| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 05:34:14.2248| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 05:34:14.7546| INFO|Core|Ts3Client.ConnectClient Client connected.

@@ -1,0 +1,74 @@
+# Rights declaration file
+# For more information about syntax and structure see here:
+# https://github.com/Splamy/TS3AudioBot/wiki/Rights
+
+"+" = [
+	# Basic stuff
+	"cmd.help.*",
+	"cmd.pm",
+	"cmd.subscribe",
+	"cmd.unsubscribe",
+	"cmd.kickme.*",
+	"cmd.version",
+	
+	# Getting song info
+	"cmd.song",
+	"cmd.repeat",
+	"cmd.random",
+
+	# Conditionals and basic scripting
+	"cmd.if",
+	"cmd.print",
+	"cmd.rng",
+	"cmd.eval",
+	"cmd.take",
+	"cmd.xecute",
+	"cmd.getmy.*",
+	"cmd.json.*",
+	"cmd.bot.use",
+	"cmd.rights.can",
+]
+
+# Admin rule
+[[rule]]
+	# Set your admin Group Ids here, ex: [ 13, 42 ]
+	groupid = []
+	# And/Or your admin Client Uids here
+	# 注意：如果你是管理员，记得把下面引号里的ID换成你自己的 UID
+	useruid = [ "9IUioSldd48RhXFqS/nA6hgOSL4=" ]
+	# By default treat requests from localhost as admin
+	ip = [ "127.0.0.1", "::1" ]
+
+	"+" = "*"
+
+# Playing rights
+[[rule]]
+	# 这里的 groupid 和 useruid 已经被删除
+	# 现在的设置意味着：所有人（Everyone）都拥有以下权限
+
+	"+" = [
+		# Play controls
+		"cmd.play",
+		"cmd.pause",
+		"cmd.stop",
+		"cmd.seek",
+		"cmd.volume",
+
+		# Playlist management
+		"cmd.list.*",
+		"cmd.add",
+		"cmd.clear",
+		"cmd.previous",
+		"cmd.next",
+		"cmd.random.*",
+		"cmd.repeat.*",
+
+		# History features
+		"cmd.history.add",
+		"cmd.history.from",
+		"cmd.history.id",
+		"cmd.history.last",
+		"cmd.history.play",
+		"cmd.history.till",
+		"cmd.history.title",
+	]
