@@ -1,0 +1,22 @@
+2026-01-04 02:40:21.3054| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 02:40:21.3324| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 02:40:21
+2026-01-04 02:40:21.3324| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 02:40:21.3324| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 02:40:21.3324| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.26100.0 (64bit)
+2026-01-04 02:40:21.3478| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 02:40:21.3478| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 02:40:21.3478| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 02:40:21.6937| WARN|Core|RightsManager.CreateConfigIfNotExists No permission file found.
+2026-01-04 02:41:05.3990| INFO|Core|RightsManager.CreateConfig Creating new permission file ({"AdminUids":["9IUioSldd48RhXFqS\/nA6hgOSL4="], "OverwriteIfExists":false})
+2026-01-04 02:41:05.5216| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 02:41:20.0931| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 02:41:21.0288| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-04 02:42:06.4982| INFO|0|Bot.OnMessageReceived User Acc requested: !play 恋人
+2026-01-04 02:42:21.3617| INFO|0|Bot.OnMessageReceived User Acc requested: !plugin list
+2026-01-04 02:42:44.9654| INFO|0|Bot.OnMessageReceived User Acc requested: !play 稻香
+2026-01-04 02:45:31.2021| INFO||Core.ConsoleInterruptHandler Got interrupt signal, trying to soft-exit.
+2026-01-04 02:45:31.2021| INFO||Core.StopAsync TS3AudioBot shutting down.
+2026-01-04 02:45:31.2021| INFO||Bot.Stop Bot (0) disconnecting.
+2026-01-04 02:45:31.2397| INFO||WebServer.Dispose WebServer is closing
+2026-01-04 02:45:31.2397| INFO|Core|WebServer.OnShutdown WebServer has closed
+2026-01-04 02:45:31.2397| INFO||Core.StopAsync Bye

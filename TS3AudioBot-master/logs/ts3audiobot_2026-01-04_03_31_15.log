@@ -1,0 +1,22 @@
+2026-01-04 03:31:15.1011| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 03:31:15.1246| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 03:31:15
+2026-01-04 03:31:15.1351| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 03:31:15.1351| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 03:31:15.1351| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.26100.0 (64bit)
+2026-01-04 03:31:15.1351| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 03:31:15.1351| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 03:31:15.1351| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 03:31:15.4583| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 03:31:15.5854| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 03:31:15.9104| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-04 03:31:20.9141| INFO|0|Bot.OnMessageReceived User Acc requested: !list 李荣浩
+2026-01-04 03:31:27.9990| INFO|0|Bot.OnMessageReceived User Acc requested: !play 恋人
+2026-01-04 03:31:28.6638| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:31:58.7262| INFO|0|PlayManager.StopInternal Song queue ended: No next song could be played.
+2026-01-04 03:31:58.7439| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:34:32.7571| INFO||Core.ConsoleInterruptHandler Got interrupt signal, trying to soft-exit.
+2026-01-04 03:34:32.7571| INFO||Core.StopAsync TS3AudioBot shutting down.
+2026-01-04 03:34:32.7571| INFO||Bot.Stop Bot (0) disconnecting.
+2026-01-04 03:34:32.7978| INFO||WebServer.Dispose WebServer is closing
+2026-01-04 03:34:32.7978| INFO|Core|WebServer.OnShutdown WebServer has closed
+2026-01-04 03:34:32.7978| INFO||Core.StopAsync Bye

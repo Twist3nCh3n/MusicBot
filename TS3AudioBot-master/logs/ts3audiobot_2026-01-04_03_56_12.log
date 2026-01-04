@@ -1,0 +1,82 @@
+2026-01-04 03:56:12.2418| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 03:56:12.2653| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 03:56:12
+2026-01-04 03:56:12.2758| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 03:56:12.2758| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 03:56:12.2758| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.26100.0 (64bit)
+2026-01-04 03:56:12.2758| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 03:56:12.2758| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 03:56:12.2758| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 03:56:12.5898| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 03:56:12.7163| WARN|Core|Util.UnwrapToLog Command error path: Command: Error: The command cannot be inserted into a complex node (list).
+2026-01-04 03:56:12.7163| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 03:56:13.0349| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-04 03:56:22.8614| INFO|0|Bot.OnMessageReceived User Acc requested: !list 抖音热歌
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.pm" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.subscribe" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.unsubscribe" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.version" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.repeat" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.random" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.if" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.print" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.rng" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.eval" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.take" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.xecute" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.bot.use" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.rights.can" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.seek" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.history.from" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.history.id" is not registered.
+2026-01-04 03:56:22.8985| WARN|0|RightsManager.ReadFile Right "cmd.history.last" is not registered.
+2026-01-04 03:56:22.9107| WARN|0|RightsManager.ReadFile Right "cmd.history.till" is not registered.
+2026-01-04 03:56:22.9107| WARN|0|RightsManager.ReadFile Right "cmd.history.title" is not registered.
+2026-01-04 03:56:24.3782| WARN|0|Bot.TryCatchCommand Command Error (Need at least one argument to evaluate.)
+TS3AudioBot.CommandSystem.CommandException: Need at least one argument to evaluate.
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.FitArguments(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 191
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 198
+   at TS3AudioBot.CommandSystem.BotCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\BotCommand.cs:line 131
+   at TS3AudioBot.CommandSystem.Commands.CommandGroup.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\CommandGroup.cs:line 63
+   at TS3AudioBot.CommandSystem.Commands.CommandGroup.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\CommandGroup.cs:line 63
+   at TS3AudioBot.CommandSystem.Commands.RootCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\RootCommand.cs:line 41
+   at TS3AudioBot.CommandSystem.CommandManager.Execute(ExecutionInformation info, String command) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\CommandManager.cs:line 401
+   at TS3AudioBot.Bot.<>c__DisplayClass42_0.<<CallScript>b__0>d.MoveNext() in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 503
+--- End of stack trace from previous location ---
+   at TS3AudioBot.Bot.TryCatchCommand(ExecutionInformation info, Boolean answer, Func`1 action) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 530
+2026-01-04 03:56:24.5460| WARN|0|Util.UnwrapToLog file_invalid_path: the command failed to execute: invalid file path
+2026-01-04 03:56:27.6354| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 03:56:27.7734| WARN|0|Bot.TryCatchCommand Command Error (Need at least one argument to evaluate.)
+TS3AudioBot.CommandSystem.CommandException: Need at least one argument to evaluate.
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.FitArguments(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 191
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 198
+   at TS3AudioBot.CommandSystem.BotCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\BotCommand.cs:line 131
+   at TS3AudioBot.CommandSystem.Commands.CommandGroup.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\CommandGroup.cs:line 63
+   at TS3AudioBot.CommandSystem.Commands.CommandGroup.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\CommandGroup.cs:line 63
+   at TS3AudioBot.CommandSystem.Commands.RootCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\RootCommand.cs:line 41
+   at TS3AudioBot.CommandSystem.CommandManager.Execute(ExecutionInformation info, String command) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\CommandManager.cs:line 401
+   at TS3AudioBot.Bot.<>c__DisplayClass42_0.<<CallScript>b__0>d.MoveNext() in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 503
+--- End of stack trace from previous location ---
+   at TS3AudioBot.Bot.TryCatchCommand(ExecutionInformation info, Boolean answer, Func`1 action) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 530
+2026-01-04 03:56:27.8741| WARN|0|Util.UnwrapToLog file_invalid_path: the command failed to execute: invalid file path
+2026-01-04 03:56:30.4244| INFO|0|Bot.OnMessageReceived User Acc requested: !next
+2026-01-04 03:56:30.5633| WARN|0|Bot.TryCatchCommand Command Error (Need at least one argument to evaluate.)
+TS3AudioBot.CommandSystem.CommandException: Need at least one argument to evaluate.
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.FitArguments(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 191
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 198
+   at TS3AudioBot.CommandSystem.BotCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\BotCommand.cs:line 131
+   at TS3AudioBot.CommandSystem.Commands.CommandGroup.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\CommandGroup.cs:line 63
+   at TS3AudioBot.CommandSystem.Commands.CommandGroup.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\CommandGroup.cs:line 63
+   at TS3AudioBot.CommandSystem.Commands.RootCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\RootCommand.cs:line 41
+   at TS3AudioBot.CommandSystem.CommandManager.Execute(ExecutionInformation info, String command) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\CommandManager.cs:line 401
+   at TS3AudioBot.Bot.<>c__DisplayClass42_0.<<CallScript>b__0>d.MoveNext() in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 503
+--- End of stack trace from previous location ---
+   at TS3AudioBot.Bot.TryCatchCommand(ExecutionInformation info, Boolean answer, Func`1 action) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 530
+2026-01-04 03:56:30.6587| WARN|0|Util.UnwrapToLog file_invalid_path: the command failed to execute: invalid file path
+2026-01-04 03:56:33.6477| INFO|0|Bot.OnMessageReceived User Acc requested: !pause
+2026-01-04 03:56:37.3204| INFO|0|Bot.OnMessageReceived User Acc requested: !login
+2026-01-04 03:56:58.9544| INFO||Core.ConsoleInterruptHandler Got interrupt signal, trying to soft-exit.
+2026-01-04 03:56:58.9544| INFO||Core.StopAsync TS3AudioBot shutting down.
+2026-01-04 03:56:58.9591| INFO||Bot.Stop Bot (0) disconnecting.
+2026-01-04 03:56:59.0030| INFO||WebServer.Dispose WebServer is closing
+2026-01-04 03:56:59.0039| INFO|Core|WebServer.OnShutdown WebServer has closed
+2026-01-04 03:56:59.0039| INFO||Core.StopAsync Bye

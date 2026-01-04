@@ -1,0 +1,22 @@
+2026-01-04 02:51:59.6806| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 02:51:59.7115| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 02:51:59
+2026-01-04 02:51:59.7263| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 02:51:59.7263| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 02:51:59.7263| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.26100.0 (64bit)
+2026-01-04 02:51:59.7263| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 02:51:59.7263| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 02:51:59.7263| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 02:52:00.0922| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 02:52:00.2266| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 02:52:00.5592| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-04 02:52:01.3803| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 02:52:03.1356| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 02:52:03.9146| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 02:52:04.3445| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 02:52:04.7555| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 02:57:12.9530| INFO||Core.ConsoleInterruptHandler Got interrupt signal, trying to soft-exit.
+2026-01-04 02:57:12.9530| INFO||Core.StopAsync TS3AudioBot shutting down.
+2026-01-04 02:57:12.9580| INFO||Bot.Stop Bot (0) disconnecting.
+2026-01-04 02:57:13.0010| INFO||WebServer.Dispose WebServer is closing
+2026-01-04 02:57:13.0010| INFO|Core|WebServer.OnShutdown WebServer has closed
+2026-01-04 02:57:13.0010| INFO||Core.StopAsync Bye

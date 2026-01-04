@@ -1,0 +1,18 @@
+2026-01-04 02:49:10.9677| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 02:49:10.9908| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 02:49:10
+2026-01-04 02:49:10.9908| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 02:49:10.9908| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 02:49:10.9908| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.26100.0 (64bit)
+2026-01-04 02:49:10.9908| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 02:49:11.0046| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 02:49:11.0046| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 02:49:11.3399| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 02:49:11.4774| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 02:49:11.8479| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-04 02:49:21.6971| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 02:51:41.3857| INFO||Core.ConsoleInterruptHandler Got interrupt signal, trying to soft-exit.
+2026-01-04 02:51:41.3857| INFO||Core.StopAsync TS3AudioBot shutting down.
+2026-01-04 02:51:41.3857| INFO||Bot.Stop Bot (0) disconnecting.
+2026-01-04 02:51:41.4237| INFO||WebServer.Dispose WebServer is closing
+2026-01-04 02:51:41.4237| INFO|Core|WebServer.OnShutdown WebServer has closed
+2026-01-04 02:51:41.4262| INFO||Core.StopAsync Bye

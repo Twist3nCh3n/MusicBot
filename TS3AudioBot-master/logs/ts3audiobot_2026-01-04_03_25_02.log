@@ -1,0 +1,25 @@
+2026-01-04 03:25:02.4893| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 03:25:02.5123| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 03:25:02
+2026-01-04 03:25:02.5233| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 03:25:02.5233| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 03:25:02.5233| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.26100.0 (64bit)
+2026-01-04 03:25:02.5233| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 03:25:02.5233| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 03:25:02.5233| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 03:25:02.8474| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 03:25:02.9715| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 03:25:03.3013| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-04 03:25:15.5216| INFO|0|Bot.OnMessageReceived User Acc requested: !alias add list !play list:
+2026-01-04 03:25:24.2000| INFO|0|Bot.OnMessageReceived User Acc requested: !list 李荣浩
+2026-01-04 03:25:30.3974| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:playlist:网易云必听热歌（免费）
+2026-01-04 03:25:52.3832| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 03:25:52.9320| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:25:56.2282| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:playlist:网易云必听热歌（免费）
+2026-01-04 03:26:22.9901| INFO|0|PlayManager.StopInternal Song queue ended: No next song could be played.
+2026-01-04 03:26:23.0093| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:31:12.4207| INFO||Core.ConsoleInterruptHandler Got interrupt signal, trying to soft-exit.
+2026-01-04 03:31:12.4207| INFO||Core.StopAsync TS3AudioBot shutting down.
+2026-01-04 03:31:12.4207| INFO||Bot.Stop Bot (0) disconnecting.
+2026-01-04 03:31:12.4580| INFO||WebServer.Dispose WebServer is closing
+2026-01-04 03:31:12.4580| INFO|Core|WebServer.OnShutdown WebServer has closed
+2026-01-04 03:31:12.4580| INFO||Core.StopAsync Bye

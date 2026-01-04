@@ -1,0 +1,38 @@
+2026-01-04 03:05:02.8583| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 03:05:02.8834| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 03:05:02
+2026-01-04 03:05:02.8965| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 03:05:02.8965| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 03:05:02.8965| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.26100.0 (64bit)
+2026-01-04 03:05:02.8965| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 03:05:02.8965| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 03:05:02.8965| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 03:05:03.2599| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 03:05:03.3913| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 03:05:03.7283| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-04 03:05:07.0072| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 03:05:07.6418|ERROR|0|FfmpegProducer.StartFfmpegProcessInternal Ffmpeg could not be found (An error occurred trying to start process 'ffmpeg' with working directory 'C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master'. 系统找不到指定的文件。)
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'ffmpeg' with working directory 'C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master'. 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at TS3AudioBot.Audio.FfmpegProducer.StartFfmpegProcessInternal(FfmpegInstance instance, String arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Audio\FfmpegProducer.cs:line 281
+2026-01-04 03:05:07.6828| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:05:07.7314| WARN|0|Util.UnwrapToLog file_invalid_path: the command failed to execute: invalid file path
+2026-01-04 03:05:16.9256| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 03:05:16.9256|ERROR|0|FfmpegProducer.StartFfmpegProcessInternal Ffmpeg could not be found (An error occurred trying to start process 'ffmpeg' with working directory 'C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master'. 系统找不到指定的文件。)
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'ffmpeg' with working directory 'C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master'. 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at TS3AudioBot.Audio.FfmpegProducer.StartFfmpegProcessInternal(FfmpegInstance instance, String arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Audio\FfmpegProducer.cs:line 281
+2026-01-04 03:05:16.9505| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:05:16.9803| WARN|0|Util.UnwrapToLog file_invalid_path: the command failed to execute: invalid file path
+2026-01-04 03:05:43.7055| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 03:05:49.3939| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:05:49.4311| WARN|0|Util.UnwrapToLog file_invalid_path: the command failed to execute: invalid file path
+2026-01-04 03:06:19.7901| INFO|0|PlayManager.StopInternal Song queue ended: No next song could be played.
+2026-01-04 03:06:19.8081| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:06:29.4807| INFO||Core.ConsoleInterruptHandler Got interrupt signal, trying to soft-exit.
+2026-01-04 03:06:29.4807| INFO||Core.StopAsync TS3AudioBot shutting down.
+2026-01-04 03:06:29.4807| INFO||Bot.Stop Bot (0) disconnecting.
+2026-01-04 03:06:29.5223| INFO||WebServer.Dispose WebServer is closing
+2026-01-04 03:06:29.5223| INFO|Core|WebServer.OnShutdown WebServer has closed
+2026-01-04 03:06:29.5223| INFO||Core.StopAsync Bye

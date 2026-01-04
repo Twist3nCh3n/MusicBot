@@ -1,0 +1,31 @@
+2026-01-04 03:14:42.2578| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 03:14:42.2814| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 03:14:42
+2026-01-04 03:14:42.2919| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 03:14:42.2919| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 03:14:42.2919| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.26100.0 (64bit)
+2026-01-04 03:14:42.2919| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 03:14:42.2919| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 03:14:42.3534| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 03:14:42.6729| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 03:14:42.7981| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 03:14:43.1321| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-04 03:15:00.4726| INFO|0|Bot.OnMessageReceived User Acc requested: !play list:李荣浩
+2026-01-04 03:15:41.4153| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 03:15:42.0449| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:16:00.6573| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:playlist:李荣浩
+2026-01-04 03:16:01.1734| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:16:01.2107| WARN|0|Util.UnwrapToLog file_invalid_path: the command failed to execute: invalid file path
+2026-01-04 03:16:27.3920| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:playlist:免费
+2026-01-04 03:16:27.8989| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:16:27.9419| WARN|0|Util.UnwrapToLog file_invalid_path: the command failed to execute: invalid file path
+2026-01-04 03:16:53.8085| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:playlist:网易云必听热歌（免费）
+2026-01-04 03:16:54.3360| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:16:54.3943| WARN|0|Util.UnwrapToLog file_invalid_path: the command failed to execute: invalid file path
+2026-01-04 03:17:24.4211| INFO|0|PlayManager.StopInternal Song queue ended: No next song could be played.
+2026-01-04 03:17:24.4399| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:22:19.9079| INFO||Core.ConsoleInterruptHandler Got interrupt signal, trying to soft-exit.
+2026-01-04 03:22:19.9079| INFO||Core.StopAsync TS3AudioBot shutting down.
+2026-01-04 03:22:19.9123| INFO||Bot.Stop Bot (0) disconnecting.
+2026-01-04 03:22:19.9437| INFO||WebServer.Dispose WebServer is closing
+2026-01-04 03:22:19.9437| INFO|Core|WebServer.OnShutdown WebServer has closed
+2026-01-04 03:22:19.9437| INFO||Core.StopAsync Bye

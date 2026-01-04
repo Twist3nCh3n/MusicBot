@@ -1,0 +1,51 @@
+2026-01-04 02:57:17.7577| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 02:57:17.7807| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 02:57:17
+2026-01-04 02:57:17.7913| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 02:57:17.7913| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 02:57:17.7913| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.26100.0 (64bit)
+2026-01-04 02:57:17.7913| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 02:57:17.7913| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 02:57:17.7913| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 02:57:18.1171| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 02:57:18.2420| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 02:57:18.5706| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-04 02:57:26.8260| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 02:57:27.2971|ERROR|0|Bot.TryCatchCommand Unexpected command error: 未找到歌曲
+System.Exception: 未找到歌曲
+   at TS3AudioBot.ResourceFactories.NeteaseResolver.GetResource(ResolveContext ctx, String uri) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\ResourceFactories\NeteaseResolver.cs:line 88
+   at TS3AudioBot.ResourceFactories.ResourceResolver.Load(ResolveContext ctx, String message, String audioType) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\ResourceFactories\ResourceResolver.cs:line 88
+   at TS3AudioBot.Audio.PlayManager.Play(InvokerData invoker, String link, String audioType, PlayInfo meta) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Audio\PlayManager.cs:line 122
+   at TS3AudioBot.MainCommands.CommandPlay(PlayManager playManager, InvokerData invoker, String url, String[] attributes) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\MainCommands.cs:line 1195
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.ExecuteFunction(Object[] parameters) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 82
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 205
+   at TS3AudioBot.CommandSystem.BotCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\BotCommand.cs:line 131
+   at TS3AudioBot.CommandSystem.Commands.OverloadedFunctionCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\OverloadedFunctionCommand.cs:line 84
+   at TS3AudioBot.CommandSystem.Commands.CommandGroup.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\CommandGroup.cs:line 63
+   at TS3AudioBot.CommandSystem.Commands.RootCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\RootCommand.cs:line 41
+   at TS3AudioBot.CommandSystem.CommandManager.Execute(ExecutionInformation info, String command) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\CommandManager.cs:line 401
+   at TS3AudioBot.Bot.<>c__DisplayClass42_0.<<CallScript>b__0>d.MoveNext() in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 503
+--- End of stack trace from previous location ---
+   at TS3AudioBot.Bot.TryCatchCommand(ExecutionInformation info, Boolean answer, Func`1 action) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 530
+2026-01-04 02:57:34.2675| INFO|0|Bot.OnMessageReceived User Acc requested: !play netease:稻香
+2026-01-04 02:57:34.2729|ERROR|0|Bot.TryCatchCommand Unexpected command error: 未找到歌曲
+System.Exception: 未找到歌曲
+   at TS3AudioBot.ResourceFactories.NeteaseResolver.GetResource(ResolveContext ctx, String uri) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\ResourceFactories\NeteaseResolver.cs:line 88
+   at TS3AudioBot.ResourceFactories.ResourceResolver.Load(ResolveContext ctx, String message, String audioType) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\ResourceFactories\ResourceResolver.cs:line 88
+   at TS3AudioBot.Audio.PlayManager.Play(InvokerData invoker, String link, String audioType, PlayInfo meta) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Audio\PlayManager.cs:line 122
+   at TS3AudioBot.MainCommands.CommandPlay(PlayManager playManager, InvokerData invoker, String url, String[] attributes) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\MainCommands.cs:line 1195
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.ExecuteFunction(Object[] parameters) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 82
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 205
+   at TS3AudioBot.CommandSystem.BotCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\BotCommand.cs:line 131
+   at TS3AudioBot.CommandSystem.Commands.OverloadedFunctionCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\OverloadedFunctionCommand.cs:line 84
+   at TS3AudioBot.CommandSystem.Commands.CommandGroup.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\CommandGroup.cs:line 63
+   at TS3AudioBot.CommandSystem.Commands.RootCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\RootCommand.cs:line 41
+   at TS3AudioBot.CommandSystem.CommandManager.Execute(ExecutionInformation info, String command) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\CommandManager.cs:line 401
+   at TS3AudioBot.Bot.<>c__DisplayClass42_0.<<CallScript>b__0>d.MoveNext() in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 503
+--- End of stack trace from previous location ---
+   at TS3AudioBot.Bot.TryCatchCommand(ExecutionInformation info, Boolean answer, Func`1 action) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 530
+2026-01-04 03:00:29.9314| INFO||Core.ConsoleInterruptHandler Got interrupt signal, trying to soft-exit.
+2026-01-04 03:00:29.9314| INFO||Core.StopAsync TS3AudioBot shutting down.
+2026-01-04 03:00:29.9314| INFO||Bot.Stop Bot (0) disconnecting.
+2026-01-04 03:00:29.9752| INFO||WebServer.Dispose WebServer is closing
+2026-01-04 03:00:29.9752| INFO|Core|WebServer.OnShutdown WebServer has closed
+2026-01-04 03:00:29.9752| INFO||Core.StopAsync Bye

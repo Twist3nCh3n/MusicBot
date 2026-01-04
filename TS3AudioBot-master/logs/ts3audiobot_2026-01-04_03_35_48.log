@@ -1,0 +1,79 @@
+2026-01-04 03:35:48.1479| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2026-01-04 03:35:48.1711| INFO|Core|Setup.LogHeader [ Date: Sunday, 04 January 2026 03:35:48
+2026-01-04 03:35:48.1816| INFO|Core|Setup.LogHeader [ Version: <?>/<?>/<?>
+2026-01-04 03:35:48.1816| INFO|Core|Setup.LogHeader [ Build: <?>
+2026-01-04 03:35:48.1816| INFO|Core|Setup.LogHeader [ Platform: Windows 10.0.26100.0 (64bit)
+2026-01-04 03:35:48.1816| INFO|Core|Setup.LogHeader [ Runtime: .NET Core (6.0.36) ServerGC:True GC:SustainedLowLatency
+2026-01-04 03:35:48.1816| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2026-01-04 03:35:48.1816| INFO|Core|Setup.LogHeader [==============================================]
+2026-01-04 03:35:48.4825| WARN|Core|CommandManager.InsertInto "list (TS3AudioBot.Audio.PlayManager, TS3AudioBot.InvokerData|System.String)" has at least one parameter and won't be reachable due to an overloading function.
+2026-01-04 03:35:48.5007| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2026-01-04 03:35:48.6262| WARN|Core|CommandManager.InsertInto "list (TS3AudioBot.Audio.PlayManager, TS3AudioBot.InvokerData|System.String)" has at least one parameter and won't be reachable due to an overloading function.
+2026-01-04 03:35:48.6301| WARN|Core|Util.UnwrapToLog Command error path: Command: Error: An empty named function under a group cannot be overloaded.
+2026-01-04 03:35:48.6301| INFO|Core|Bot.Run Bot "default" connecting to "8.152.170.37"
+2026-01-04 03:35:48.9606| INFO|Core|Ts3Client.ConnectClient Client connected.
+2026-01-04 03:36:03.7667| INFO|0|Bot.OnMessageReceived User Acc requested: !play 稻香
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.pm" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.subscribe" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.unsubscribe" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.version" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.repeat" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.random" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.if" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.print" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.rng" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.eval" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.take" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.xecute" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.bot.use" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.rights.can" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.seek" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.history.add" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.history.from" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.history.id" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.history.last" is not registered.
+2026-01-04 03:36:03.8027| WARN|0|RightsManager.ReadFile Right "cmd.history.play" is not registered.
+2026-01-04 03:36:03.8167| WARN|0|RightsManager.ReadFile Right "cmd.history.till" is not registered.
+2026-01-04 03:36:03.8167| WARN|0|RightsManager.ReadFile Right "cmd.history.title" is not registered.
+2026-01-04 03:36:04.4019| WARN|0|Bot.TryCatchCommand Command Error (Need at least one argument to evaluate.)
+TS3AudioBot.CommandSystem.CommandException: Need at least one argument to evaluate.
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.FitArguments(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 191
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 198
+   at TS3AudioBot.CommandSystem.BotCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\BotCommand.cs:line 131
+   at TS3AudioBot.CommandSystem.Commands.CommandGroup.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\CommandGroup.cs:line 63
+   at TS3AudioBot.CommandSystem.Commands.CommandGroup.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\CommandGroup.cs:line 63
+   at TS3AudioBot.CommandSystem.Commands.RootCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\RootCommand.cs:line 41
+   at TS3AudioBot.CommandSystem.CommandManager.Execute(ExecutionInformation info, String command) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\CommandManager.cs:line 401
+   at TS3AudioBot.Bot.<>c__DisplayClass42_0.<<CallScript>b__0>d.MoveNext() in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 503
+--- End of stack trace from previous location ---
+   at TS3AudioBot.Bot.TryCatchCommand(ExecutionInformation info, Boolean answer, Func`1 action) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 530
+2026-01-04 03:36:04.4918| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:36:14.7324| INFO|0|Bot.OnMessageReceived User Acc requested: !pause
+2026-01-04 03:36:19.7127| INFO|0|Bot.OnMessageReceived User Acc requested: !list 抖音热歌
+2026-01-04 03:37:19.0746| INFO|0|Bot.OnMessageReceived User Acc requested: !play 稻香
+2026-01-04 03:37:19.0746| WARN|0|Bot.TryCatchCommand Command Error (Need at least one argument to evaluate.)
+TS3AudioBot.CommandSystem.CommandException: Need at least one argument to evaluate.
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.FitArguments(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 191
+   at TS3AudioBot.CommandSystem.Commands.FunctionCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\FunctionCommand.cs:line 198
+   at TS3AudioBot.CommandSystem.BotCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\BotCommand.cs:line 131
+   at TS3AudioBot.CommandSystem.Commands.CommandGroup.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\CommandGroup.cs:line 63
+   at TS3AudioBot.CommandSystem.Commands.CommandGroup.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\CommandGroup.cs:line 63
+   at TS3AudioBot.CommandSystem.Commands.RootCommand.Execute(ExecutionInformation info, IReadOnlyList`1 arguments) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\Commands\RootCommand.cs:line 41
+   at TS3AudioBot.CommandSystem.CommandManager.Execute(ExecutionInformation info, String command) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\CommandSystem\CommandManager.cs:line 401
+   at TS3AudioBot.Bot.<>c__DisplayClass42_0.<<CallScript>b__0>d.MoveNext() in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 503
+--- End of stack trace from previous location ---
+   at TS3AudioBot.Bot.TryCatchCommand(ExecutionInformation info, Boolean answer, Func`1 action) in C:\Users\15100\Desktop\TS3AudioBot-master\TS3AudioBot-master\TS3AudioBot\Bot.cs:line 530
+2026-01-04 03:37:19.1374| WARN|0|Util.UnwrapToLog permissions_client_insufficient: the command failed to execute: insufficient client permissions (missing permission:b_client_modify_own_description)
+2026-01-04 03:37:19.1774| WARN|0|Util.UnwrapToLog file_invalid_path: the command failed to execute: invalid file path
+2026-01-04 03:37:21.6202| INFO|0|Bot.OnMessageReceived User Acc requested: !pause
+2026-01-04 03:37:28.3600| INFO|0|Bot.OnMessageReceived User Acc requested: !go
+2026-01-04 03:37:31.2260| INFO|0|Bot.OnMessageReceived User Acc requested: !pause
+2026-01-04 03:37:32.9470| INFO|0|Bot.OnMessageReceived User Acc requested: !go
+2026-01-04 03:37:34.7729| INFO|0|Bot.OnMessageReceived User Acc requested: !pause
+2026-01-04 03:38:59.5588| INFO|0|Bot.OnMessageReceived User Acc requested: !alias remove list
+2026-01-04 03:39:26.6071| INFO||Core.ConsoleInterruptHandler Got interrupt signal, trying to soft-exit.
+2026-01-04 03:39:26.6071| INFO||Core.StopAsync TS3AudioBot shutting down.
+2026-01-04 03:39:26.6071| INFO||Bot.Stop Bot (0) disconnecting.
+2026-01-04 03:39:26.6604| INFO||WebServer.Dispose WebServer is closing
+2026-01-04 03:39:26.6604| INFO|Core|WebServer.OnShutdown WebServer has closed
+2026-01-04 03:39:26.6604| INFO||Core.StopAsync Bye
